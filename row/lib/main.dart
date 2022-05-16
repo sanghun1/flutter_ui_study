@@ -19,27 +19,25 @@ class RowEx extends StatelessWidget {
             title: Text("Row"),
             leading: Icon(Icons.menu),
           ),
-          body: Row(
-            children:[
-              Expanded(
-                flex: 3,
-                child: Container(
+          body: Container( // 자식은 부모의 크기를 넘을 수 없다
+            height: 100,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children:[
+                Container(
+                  width:100,
                   color:Colors.green,
                 ),
-              ),
-              Expanded(
-                flex: 1,
-                child: Container(
+                Container(
+                  width:100,
                   color:Colors.red,
                 ),
-              ),
-              Expanded(
-                flex: 1,
-                child: Container(
+                Container(
+                  width:100,
                   color:Colors.orange,
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
           floatingActionButton: FloatingActionButton(
             onPressed: () {
