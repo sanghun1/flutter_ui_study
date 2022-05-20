@@ -14,7 +14,7 @@ class StackEx extends StatelessWidget {
       ),
       home: SafeArea(
         child: Scaffold(
-          resizeToAvoidBottomInset: false,
+          // resizeToAvoidBottomInset: false,
           body: Stack(
             children: [
               Column(
@@ -45,7 +45,15 @@ class StackEx extends StatelessWidget {
                 right: 0,
                 bottom: 0,
                 height: 200,
-                child: buildTextFormField("Username"),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  child: Column(
+                    children: [
+                      buildTextFormField("Username"),
+                      buildTextFormField("Password"),
+                    ],
+                  ),
+                ),
               ),
             ],
           ),
