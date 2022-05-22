@@ -43,6 +43,7 @@ class NewApp extends StatelessWidget {
       actions: [TextButton(onPressed: () {}, child: Text("적용"))],
     );
   }
+  
 
   CupertinoDialogAction buildDialogAction(BuildContext context) {
     return CupertinoDialogAction(
