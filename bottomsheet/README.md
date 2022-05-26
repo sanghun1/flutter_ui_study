@@ -1,16 +1,8 @@
 # bottomsheet
 
-bottomsheet
+----------------------------------------
 
-## Getting Started
+### FloatingButton을 클릭하면 하단에서 TextField가 포함된 BottomSheet가 올라옵니다.
+-MediaQuery를 이용하여 BottomSheet의 패딩 값을 줘서 TextField를 클릭하면 BottomSheet가 하단에서 올라오는 키보드의 높이만큼 더 올라갑니다.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="266" alt="image" src="https://user-images.githubusercontent.com/39526249/170479826-573c5492-13e2-4262-9aab-c2b29af234f9.gif">
