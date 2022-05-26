@@ -1,16 +1,7 @@
 # align
 
-align
+----------------------------------------
 
-## Getting Started
+### alignment 속성으로 글자 위치 변경
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="266" alt="KakaoTalk_20220526_172446153" src="https://user-images.githubusercontent.com/39526249/170449417-93516f8e-355d-4757-8556-91ffe04d08f5.png">
