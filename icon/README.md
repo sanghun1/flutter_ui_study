@@ -1,16 +1,22 @@
-# icon
+# icon, font, clip
+----------------------------------------
 
-icon
+### icon, font 라이브러리 적용 방법
+- pubspec.yaml에서 적용 후 Pub get
+- font는 assets 파일 저장 후 pubspec.yaml에서 적용
 
-## Getting Started
+### icon 적용 예시
+<img width="190" alt="image" src="https://user-images.githubusercontent.com/39526249/170652451-7d5fd449-7cf2-47b8-afb9-6991383854d9.png">
 
-This project is a starting point for a Flutter application.
+### font 적용 예시
+<img width="326" alt="image" src="https://user-images.githubusercontent.com/39526249/170652559-f4691306-5501-488b-9f4b-4cdce34fb3e3.png">
 
-A few resources to get you started if this is your first Flutter project:
+----------------------------------------
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### clip
+- ClipRRect : 이미지 끝을 동그랗게 자른다.
+- ClipOval : 이미지를 동그랗게 자른다.
+- ClipRect : 이미지를 네모로 자른다.
+- ClipPath : Custom으로 모양을 지정해서 자른다.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="266" alt="image" src="https://user-images.githubusercontent.com/39526249/170650453-cb7c293f-1a9b-47ef-92c2-0b14d0bbd3d1.png">
