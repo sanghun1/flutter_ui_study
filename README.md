@@ -1,6 +1,10 @@
 # flutter_ui_study
 
 ----------------------------------------
+### 참고 강의
+- [강의](https://www.youtube.com/playlist?list=PL93mKxaRDidGqIewEULPeKMJRcWD9KRrn)
+
+----------------------------------------
 
 ### 실행 오류
 - Run -> Edit Configurations... 로 이동 
